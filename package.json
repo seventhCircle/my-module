@@ -1,0 +1,28 @@
+{
+  "name": "my-jotai-module",
+  "version": "0.1.6",
+  "description": "This is test jotai module",
+  "main": "dist/core.umd.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Kens",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "jotai": "^2.7.1",
+    "react": "^18.2.0",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.71",
+    "vite": "^5.2.6",
+    "vite-plugin-dts": "^3.8.0"
+  }
+}
